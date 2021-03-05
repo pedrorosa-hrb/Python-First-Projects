@@ -1,13 +1,10 @@
 import random
 import time
+from funcoes import divisoria,printsp
 
 # \033[0;32;47m \033[m
 
-def divisoria():
-    print("\033[1;32;40m---------------------------------------------\033[m")
 
-def printsp(text):
-    print(f'\033[1;32;40m{text}\033[m')
 
 letras1 = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','x','y','z']
 letras2 = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','X','Y','Z']
